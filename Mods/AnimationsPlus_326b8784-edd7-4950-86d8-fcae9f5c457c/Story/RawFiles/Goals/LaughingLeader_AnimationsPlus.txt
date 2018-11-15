@@ -1,0 +1,106 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+LLANIM_Internal_RegisterMod();
+KBSECTION
+//REGION DEBUG
+IF
+GameModeStarted(_GameMode, 1)
+AND
+NOT DB_Origins(_)
+THEN
+DB_Origins((CHARACTERGUID)S_GLO_CharacterCreationDummy_001_da072fe7-fdd5-42ae-9139-8bd4b9fca406);
+
+IF
+TextEventSet("llanim_bonetest")
+AND
+GetTextEventParamString(1, _Bone)
+AND
+NOT GetTextEventParamString(2, _)
+AND
+CharacterGetHostCharacter(_Host)
+THEN
+PlayEffect(_Host, "RS3_FX_GP_ScriptedEvent_ChanelledSourceOrb_01", _Bone);
+
+IF
+TextEventSet("llanim_bonetest")
+AND
+GetTextEventParamString(1, _Bone)
+AND
+GetTextEventParamString(2, _Effect)
+AND
+CharacterGetHostCharacter(_Host)
+THEN
+PlayEffect(_Host, _Effect, _Bone);
+//END_REGION
+
+//REGION LEADERLIB_VERSIONING
+PROC
+LLANIM_Internal_RegisterMod()
+THEN
+LLANIM_Updater_RemoveOldVersions("1.0.0.0");
+LLANIM_Updater_SetVersion("1.0.0.0");
+
+IF
+GameStarted(_Level, _)
+AND
+IsGameLevel(_Level, 1)
+AND
+LLANIM_Updater_QRY_UpdateNeeded("1.0.0.0")
+THEN
+LLANIM_Internal_RegisterMod();
+
+QRY
+LLANIM_Updater_QRY_UpdateNeeded((STRING)_Version)
+AND
+NOT DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version)
+THEN
+DB_NOOP(1);
+
+PROC
+LLANIM_Updater_RemoveOldVersions((STRING)_NextVersion)
+AND
+DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version)
+THEN
+NOT DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version);
+LLANIM_Updater_VersionUpdated(_Version, _NextVersion);
+
+PROC
+LLANIM_Updater_VersionUpdated((STRING)_Version, (STRING)_NextVersion)
+THEN
+DB_NOOP(1);
+
+PROC
+LLANIM_Updater_SetVersion((STRING)_Version)
+AND
+DB_GlobalFlag("LeaderLib_Initialized")
+THEN
+//Fire LeaderLib ModUpdated procs.
+DB_LeaderLib_ModApi_RegisterMod("AnimationsPlus", "LaughingLeader", _Version);
+
+PROC
+LLANIM_Updater_SetVersion((STRING)_Version)
+AND
+NOT DB_GlobalFlag("LeaderLib_Initialized")
+THEN
+DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version);
+//END_REGION
+
+//REGION LEADERLIB_REGISTER_SETTINGS
+IF
+StoryEvent(_, "LeaderLib_Initialized")
+AND
+NOT DB_LLANIM_RegisteredLeaderLibSettings(_)
+THEN
+DB_LLANIM_RegisteredLeaderLibSettings(1);
+
+IF
+DB_LLANIM_RegisteredLeaderLibSettings(1)
+THEN
+DB_LeaderLib_ModApi_RegisterActiveGoal("AnimationsPlus", "LaughingLeader", "LaughingLeader_AnimationsPlus");
+//DB_LeaderLib_ModApi_RegisterMenu("LaughingLeader.FullLoot", "[Full Loot] Settings", "LLANIM_SettingsMenu", "AnimationsPlus", "LaughingLeader");
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Start"

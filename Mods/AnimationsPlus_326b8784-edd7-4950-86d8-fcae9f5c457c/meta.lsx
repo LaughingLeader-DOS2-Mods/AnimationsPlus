@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="1" build="0" />
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Dependencies" />
+                <node id="ModuleInfo">
+                    <attribute id="Author" value="LaughingLeader" type="30" />
+                    <attribute id="CharacterCreationLevelName" value="" type="22" />
+                    <attribute id="Description" value="Adds existing animations to weapons lacking skill animations, such as unarmed and dual wielded wands, adds custom animations for mods to use, additional effect bones, and provides a way for mods to add new animations to all playable races." type="30" />
+                    <attribute id="Folder" value="AnimationsPlus_326b8784-edd7-4950-86d8-fcae9f5c457c" type="30" />
+                    <attribute id="GMTemplate" value="" type="22" />
+                    <attribute id="LobbyLevelName" value="" type="22" />
+                    <attribute id="MD5" value="" type="23" />
+                    <attribute id="MenuLevelName" value="" type="22" />
+                    <attribute id="Name" value="Animations Plus" type="22" />
+                    <attribute id="NumPlayers" value="4" type="1" />
+                    <attribute id="PhotoBooth" value="" type="22" />
+                    <attribute id="StartupLevelName" value="" type="22" />
+                    <attribute id="Tags" value="" type="30" />
+                    <attribute id="Type" value="Add-on" type="22" />
+                    <attribute id="UUID" value="326b8784-edd7-4950-86d8-fcae9f5c457c" type="22" />
+                    <attribute id="Version" value="268435456" type="4" />
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version" value="907936416" type="4" />
+                        </node>
+                        <node id="Scripts" />
+                        <node id="TargetModes">
+                            <children>
+                                <node id="Target">
+                                    <attribute id="Object" value="Story" type="22" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
