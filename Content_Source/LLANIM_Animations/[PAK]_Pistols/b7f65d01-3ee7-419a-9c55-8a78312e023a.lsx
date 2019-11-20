@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="4" revision="0" build="1" />
+	<region id="AnimationBank">
+		<node id="AnimationBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="b7f65d01-3ee7-419a-9c55-8a78312e023a" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="Public/Shared/Assets/Characters/Dwarves/Dwarves_Hero_Female_ABC_Stub/STUB_Dwarves_Hero_Female_ABC_Custom_Point_01.GR2" type="30" />
+					<attribute id="Template" value="Public/Shared/Assets/Characters/Dwarves/Dwarves_Hero_Female_ABC_Stub/STUB_Dwarves_Hero_Female_ABC_Custom_Point_01.Anim.0" type="22" />
+					<attribute id="Name" value="LLANIM_ShootPistol_01_STUB_Dwarves_Hero_Female_ABC_Custom_Point_01" type="23" />
+					<attribute id="Duration" value="2.666667" type="6" />
+					<attribute id="Offset" value="0" type="6" />
+					<attribute id="Looping" value="False" type="19" />
+					<attribute id="IsPoseBank" value="False" type="19" />
+					<attribute id="PreviewVisualResource" value="ddebd965-3179-4d84-a38a-61f690f05d12" type="22" />
+					<children>
+						<node id="Events">
+							<attribute id="ID" value="cast" type="22" />
+							<attribute id="Time" value="1.515102" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="0" type="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

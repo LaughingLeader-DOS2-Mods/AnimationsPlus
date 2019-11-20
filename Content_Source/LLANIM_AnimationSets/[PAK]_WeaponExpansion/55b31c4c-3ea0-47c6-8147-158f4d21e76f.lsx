@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="4" revision="0" build="1" />
+	<region id="AnimationSetBank">
+		<node id="AnimationSetBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="55b31c4c-3ea0-47c6-8147-158f4d21e76f" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="" type="30" />
+					<attribute id="Name" value="LLANIM_Elves_Male_ABC_LLWEAPONEX_Custom" type="23" />
+					<children>
+						<node id="AnimationSet">
+							<children>
+								<node id="AnimationBank">
+									<attribute id="Type" value="character" type="22" />
+									<children>
+										<node id="AnimationSubSets">
+											<children>
+												<node id="Object">
+													<attribute id="MapKey" value="-1" type="4" />
+													<children>
+														<node id="MapValue">
+															<children>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_sheathe" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7294f85d-d813-408a-b635-335468cf0ebc" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_pistol_01_sheathe" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_pistol_02_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="eb8a204d-f029-4422-b1be-5c0be8f71e6b" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_pistol_02_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0aa845f0-cf95-4436-b8d0-33844ca64dd6" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_pistol_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="4" revision="0" build="1" />
+	<region id="AnimationBank">
+		<node id="AnimationBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="81ebe37e-23c3-4dfa-af33-d984af9ec28a" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="Public/Shared/Assets/Characters/Dwarves/Dwarves_Hero_Male_ABC/Dwarves_Hero_Male_ABC_Custom_Victory_01.GR2" type="30" />
+					<attribute id="Template" value="Public/Shared/Assets/Characters/Dwarves/Dwarves_Hero_Male_ABC/Dwarves_Hero_Male_ABC_Custom_Victory_01.Anim.0" type="22" />
+					<attribute id="Name" value="LLANIM_ShootPistol_01_Dwarves_Hero_Male_ABC_Custom_Victory_01" type="23" />
+					<attribute id="Duration" value="2.666667" type="6" />
+					<attribute id="Offset" value="0" type="6" />
+					<attribute id="Looping" value="False" type="19" />
+					<attribute id="IsPoseBank" value="False" type="19" />
+					<attribute id="PreviewVisualResource" value="29663ed6-9411-4d2c-981d-458e5c826b22" type="22" />
+					<children>
+						<node id="Events">
+							<attribute id="ID" value="footstep_left" type="22" />
+							<attribute id="Time" value="0.1770522" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="0" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="footstep_right" type="22" />
+							<attribute id="Time" value="0.6704763" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="1" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="cast" type="22" />
+							<attribute id="Time" value="1.004263" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="1" type="1" />
+							<attribute id="TextKeyType" value="0" type="1" />
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="footstep_left" type="22" />
+							<attribute id="Time" value="1.906939" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="0" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="footstep_right" type="22" />
+							<attribute id="Time" value="2.475828" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="1" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

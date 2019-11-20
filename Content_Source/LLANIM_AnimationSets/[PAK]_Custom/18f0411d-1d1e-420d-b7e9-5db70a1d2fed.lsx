@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="4" revision="0" build="0" />
+	<region id="AnimationSetBank">
+		<node id="AnimationSetBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="18f0411d-1d1e-420d-b7e9-5db70a1d2fed" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="" type="30" />
+					<attribute id="Name" value="LLANIM_Lizards_Female_ABC_WeaponAnims" type="23" />
+					<children>
+						<node id="AnimationSet">
+							<children>
+								<node id="AnimationBank">
+									<attribute id="Type" value="character" type="22" />
+									<children>
+										<node id="AnimationSubSets">
+											<children>
+												<node id="Object">
+													<attribute id="MapKey" value="-1" type="4" />
+													<children>
+														<node id="MapValue">
+															<children>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_sh_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="67f7a895-7ce8-47f9-932e-dd7867292142" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_sh_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_bow_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b713dda8-b434-4336-b0c9-a730571d3c70" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_bow_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_xb_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b19306e7-b9b9-4477-9cb0-ab3b5a67a2d7" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_xb_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_2hs_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="06ac1b55-4d52-4fb9-8a26-6ce5c2c7d992" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_2hs_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_ua_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="1bce09b7-508f-4f3e-b7d0-b11a4074d3a1" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_ua_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_1h_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="1bce09b7-508f-4f3e-b7d0-b11a4074d3a1" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_1h_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_st_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3b664baf-28da-44be-93d5-f865c4e670a0" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_st_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_dw_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="1bca9d34-8a8b-4347-bb48-1dad090a48b2" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_dw_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_xb_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4e2ca538-8cee-453c-86fb-883260270aa5" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_xb_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_sml_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b3106265-9989-4d21-94da-c0508b4abfe9" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_sml_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_2hs_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="ab68e18a-2457-4fea-b79f-b258f01d51c7" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_2hs_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_dwsml_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="28d072df-4065-4183-866e-60e58dd13eec" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_dwsml_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_wd_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="fcc2ca9f-8a4b-4e88-84d3-8dbca2d5ff09" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_wd_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_shwd_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="525f437b-b169-46f1-8aa1-f70db99fcc6f" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_shwd_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_st_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="74cffa20-0ca6-4d7b-a0e4-f1d54ee64bc5" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_st_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_pole_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="47b8d858-fc32-4972-96d3-a18c8a113674" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_pole_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_sml_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e56022ed-4e24-4d8f-950b-6ca6741c31c6" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_sml_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_dwwd_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="1bca9d34-8a8b-4347-bb48-1dad090a48b2" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_dwwd_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_pole_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="46d24a23-f3bd-427b-b5c0-0d5a6d0665dc" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_pole_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_wd_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="55b0c2d2-2b8a-4eb1-a0b3-92c0ac67f819" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_wd_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_shwd_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="53dbb09f-bb54-4e6a-b74d-c134bc38f18b" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_shwd_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_dw_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="ae6fca3b-3e57-4e46-95e9-c4b58c3a848b" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_dw_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_ua_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8998df48-d4b1-4f51-ba1e-c71efa514aef" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_ua_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_sh_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="eb0eddba-b904-4205-945d-fa1fef096583" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_sh_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_bow_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="6862cb83-9da4-4459-98c1-a8690c0e75b5" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_bow_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_dwwd_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="ae6fca3b-3e57-4e46-95e9-c4b58c3a848b" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_dwwd_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_2h_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="11bf7784-1856-4068-84fc-4e89da0964d8" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_2h_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_dwsml_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="34335e60-f596-4de4-b147-f264ae419bdd" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_dwsml_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_1h_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8998df48-d4b1-4f51-ba1e-c71efa514aef" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_1h_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_2h_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="efdaea1d-cec0-492f-ad69-5a18c005b9a4" type="22" />
+																			<attribute id="Name" value="skill_prepare_weapon_2h_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

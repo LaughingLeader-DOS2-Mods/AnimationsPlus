@@ -1,0 +1,1616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="4" revision="0" build="0" />
+	<region id="AnimationSetBank">
+		<node id="AnimationSetBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="769ec032-cab7-4422-8cf2-1a448603f974" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="" type="30" />
+					<attribute id="Name" value="Creatures_ElementalDevil_ABC_Default_ScriptOverride_Custom_01" type="23" />
+					<children>
+						<node id="AnimationSet">
+							<children>
+								<node id="AnimationBank">
+									<attribute id="Type" value="character" type="22" />
+									<children>
+										<node id="AnimationSubSets">
+											<children>
+												<node id="Object">
+													<attribute id="MapKey" value="7" type="4" />
+													<children>
+														<node id="MapValue">
+															<children>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_round_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="aed33e9b-4bba-47ec-8355-ad3c53b4304f" type="22" />
+																			<attribute id="Name" value="7_skill_attack_round_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="block" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="2fbb1ea9-ae90-4d78-922d-c4f587aaf9f2" type="22" />
+																			<attribute id="Name" value="7_block" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_up" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="7_die_front_up" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_ignore_dismiss" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="7_emotion_ignore_dismiss" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_crush" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="7_die_crush" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="attack1" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="bc519b5c-bce1-45e8-8ffd-20b3d289cbe9" type="22" />
+																			<attribute id="Name" value="7_attack1" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_sad" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="7_emotion_sad" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_thankful" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="7_emotion_thankful" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="5a4b266c-9816-4b0a-85e2-4fccc786de49" type="22" />
+																			<attribute id="Name" value="7_die_front_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_left_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="65610292-1cd7-42de-bbda-69d60c93afcf" type="22" />
+																			<attribute id="Name" value="7_die_left_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="knockdown_getup" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3c538065-42cf-4458-8a1d-e164a6cf28d5" type="22" />
+																			<attribute id="Name" value="7_knockdown_getup" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_slash" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="7_die_slash" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillblind" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stillblind" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="05ac5e13-9fd1-442f-8d26-e32a6e8cc247" type="22" />
+																			<attribute id="Name" value="7_die_front_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_angry" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="7_emotion_angry" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="idle1" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="57f3f45a-2574-4823-96ed-25b77a821fd1" type="22" />
+																			<attribute id="Name" value="7_idle1" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="5f7ed9ab-f8c7-4f5a-a2f7-ef530ddfab37" type="22" />
+																			<attribute id="Name" value="7_skill_prepare_weapon_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="unsheath" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="d8b2f0b3-a785-46a6-909f-9f13937f5407" type="22" />
+																			<attribute id="Name" value="7_unsheath" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_left_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b6d03618-86e7-4494-b9df-9bd20caf22ee" type="22" />
+																			<attribute id="Name" value="7_die_left_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_right_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="29ca42dd-3463-43c8-9b1a-0de6202346ac" type="22" />
+																			<attribute id="Name" value="7_die_right_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_dot" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="7_die_dot" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="knockdown_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="af8885ef-b0c6-4427-b33d-bf266a9ebebf" type="22" />
+																			<attribute id="Name" value="7_knockdown_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillcrippled" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stillcrippled" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_melee" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="7_die_melee" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="attack3" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="bc519b5c-bce1-45e8-8ffd-20b3d289cbe9" type="22" />
+																			<attribute id="Name" value="7_attack3" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_weapon_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3a594c76-3ea5-4316-8f3c-e1674fc9667d" type="22" />
+																			<attribute id="Name" value="7_skill_prepare_weapon_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_right_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="36c7d2e4-f739-4af8-bc03-d941cf8187c1" type="22" />
+																			<attribute id="Name" value="7_die_right_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_normal" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="7_emotion_normal" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_hang" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="7_die_hang" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="63276821-7470-44b1-a270-b488252e3db7" type="22" />
+																			<attribute id="Name" value="7_die_back_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_electrocution" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="7_die_electrocution" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="knockdown_fall" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="5cab51af-80b4-4600-9ffe-ce249b2e1183" type="22" />
+																			<attribute id="Name" value="7_knockdown_fall" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="run" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="37fe83ff-bdaf-45cb-91d6-78971ec46f57" type="22" />
+																			<attribute id="Name" value="7_run" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_knockdown" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0f93a9f8-5262-4d1a-9c0b-b86bd339ebf7" type="22" />
+																			<attribute id="Name" value="7_die_knockdown" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillchilled" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stillchilled" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_frozenshatter" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="7_die_frozenshatter" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_acid" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="7_die_acid" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="idle3" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3385c519-c619-4bb3-974c-f8be6bd387eb" type="22" />
+																			<attribute id="Name" value="7_idle3" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="51fef6e2-6379-4f9a-827e-f3a2d96b0894" type="22" />
+																			<attribute id="Name" value="7_die_back_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="dodge_backstab" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="305c9df3-b649-418a-be86-c479913d1eb1" type="22" />
+																			<attribute id="Name" value="7_dodge_backstab" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="still" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3385c519-c619-4bb3-974c-f8be6bd387eb" type="22" />
+																			<attribute id="Name" value="7_still" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillelectrified" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stillelectrified" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_down" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0d1fc656-4dcd-40b3-aafc-ab8316ab60e9" type="22" />
+																			<attribute id="Name" value="7_die_back_down" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="deathpose_physical" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="dad430bd-2579-4e7a-94e6-7605efaa8b90" type="22" />
+																			<attribute id="Name" value="7_deathpose_physical" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stilldiseased" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stilldiseased" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_incinerate" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="7_die_incinerate" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="dodge" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="2fbb1ea9-ae90-4d78-922d-c4f587aaf9f2" type="22" />
+																			<attribute id="Name" value="7_dodge" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="attack2" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="bc519b5c-bce1-45e8-8ffd-20b3d289cbe9" type="22" />
+																			<attribute id="Name" value="7_attack2" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="hit_magic" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="fc67f6be-fd46-4529-bb09-e42330684821" type="22" />
+																			<attribute id="Name" value="7_hit_magic" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillsneaking" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stillsneaking" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_up" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="65183e01-23e1-48fe-bc59-610c4de41c5d" type="22" />
+																			<attribute id="Name" value="7_die_back_up" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="sheath" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="d7a4d5fa-a937-48cb-9455-178b22338eab" type="22" />
+																			<attribute id="Name" value="7_sheath" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_arrow" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="7_die_arrow" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillmental" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stillmental" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="walk" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7d3c67ce-24da-4c53-a288-01bfe047e4e4" type="22" />
+																			<attribute id="Name" value="7_walk" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="hit_backstab" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="f8329a2f-b2ba-40b1-8488-ff6baa483e74" type="22" />
+																			<attribute id="Name" value="7_hit_backstab" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="idle2" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3385c519-c619-4bb3-974c-f8be6bd387eb" type="22" />
+																			<attribute id="Name" value="7_idle2" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_down" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="77771d32-5f25-42d9-86fa-af9a9933d94a" type="22" />
+																			<attribute id="Name" value="7_die_front_down" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stilldrunk" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="7_stilldrunk" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_pierce" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="7_die_pierce" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_precision_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e4f763fa-b458-4694-9787-65b6941f380e" type="22" />
+																			<attribute id="Name" value="7_skill_attack_precision_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="hit" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7778dc79-c046-4b1f-8526-0086b2fafa28" type="22" />
+																			<attribute id="Name" value="7_hit" type="22" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+												<node id="Object">
+													<attribute id="MapKey" value="-1" type="4" />
+													<children>
+														<node id="MapValue">
+															<children>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_up" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="die_front_up" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_ignore_dismiss" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_ignore_dismiss" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="block" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4b43e846-4838-4419-8eb8-7f950fa3fd4b" type="22" />
+																			<attribute id="Name" value="block" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="climb_Up" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="9f8b192c-c387-447a-aa73-8118f3a08b7d" type="22" />
+																			<attribute id="Name" value="climb_Up" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_crush" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="die_crush" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_shout_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b06ecb2f-468b-48d7-8d35-83097f0aa7f1" type="22" />
+																			<attribute id="Name" value="skill_prepare_shout_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_throw_line_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="917e23b6-d946-4d06-bf06-52d2a18adfcd" type="22" />
+																			<attribute id="Name" value="skill_cast_throw_line_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_rush_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="349afa91-69da-426f-bda7-f83501583509" type="22" />
+																			<attribute id="Name" value="skill_prepare_rush_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_thankful" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_thankful" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_sad" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_sad" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="5a4b266c-9816-4b0a-85e2-4fccc786de49" type="22" />
+																			<attribute id="Name" value="die_front_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_target_air_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0e17ef2f-aca4-4502-a84c-7e9f9ec647e2" type="22" />
+																			<attribute id="Name" value="skill_cast_target_air_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_left_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="65610292-1cd7-42de-bbda-69d60c93afcf" type="22" />
+																			<attribute id="Name" value="die_left_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_panic_distress" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_panic_distress" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="knockdown_getup" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3c538065-42cf-4458-8a1d-e164a6cf28d5" type="22" />
+																			<attribute id="Name" value="knockdown_getup" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="climb_UpAttach" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="c54ea654-8375-4e50-a0fb-cd28bcb54c64" type="22" />
+																			<attribute id="Name" value="climb_UpAttach" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_slash" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="die_slash" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillblind" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stillblind" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_rush_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="435b37ed-165d-4659-a80a-fcda41ef1dda" type="22" />
+																			<attribute id="Name" value="skill_prepare_rush_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="05ac5e13-9fd1-442f-8d26-e32a6e8cc247" type="22" />
+																			<attribute id="Name" value="die_front_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_shout_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="2fa5f7c3-4427-4814-90b8-9042ce041187" type="22" />
+																			<attribute id="Name" value="skill_cast_shout_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="idle1" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="9d72f82e-3441-4503-bfe9-13037e4ab5ee" type="22" />
+																			<attribute id="Name" value="idle1" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_self_earth_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="41fb1f2d-dbb7-4b77-910f-b4566617c339" type="22" />
+																			<attribute id="Name" value="skill_cast_self_earth_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_angry" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_angry" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_throw_arc_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="16a80862-3a37-4a10-85b5-0ca6fec369d9" type="22" />
+																			<attribute id="Name" value="skill_prepare_throw_arc_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_lifetime" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="751c511f-4e44-4a22-9713-145e3269ae13" type="22" />
+																			<attribute id="Name" value="die_lifetime" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="unsheath" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="d8b2f0b3-a785-46a6-909f-9f13937f5407" type="22" />
+																			<attribute id="Name" value="unsheath" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_cower_scared" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_cower_scared" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_water_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="9ea87a49-b9e1-4d4a-a658-0b86ebc0e08a" type="22" />
+																			<attribute id="Name" value="skill_prepare_water_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_Shout_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b06ecb2f-468b-48d7-8d35-83097f0aa7f1" type="22" />
+																			<attribute id="Name" value="skill_prepare_Shout_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_right_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="29ca42dd-3463-43c8-9b1a-0de6202346ac" type="22" />
+																			<attribute id="Name" value="die_right_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_left_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b6d03618-86e7-4494-b9df-9bd20caf22ee" type="22" />
+																			<attribute id="Name" value="die_left_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="knockdown_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="af8885ef-b0c6-4427-b33d-bf266a9ebebf" type="22" />
+																			<attribute id="Name" value="knockdown_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_boasting_bragging" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_boasting_bragging" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_dot" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="die_dot" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_melee" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="die_melee" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_sly_scheming" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_sly_scheming" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillcrippled" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stillcrippled" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_cone_fire_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="c2b2070d-42b2-47e7-a3d8-cea74f7ad200" type="22" />
+																			<attribute id="Name" value="skill_cast_cone_fire_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_right_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="36c7d2e4-f739-4af8-bc03-d941cf8187c1" type="22" />
+																			<attribute id="Name" value="die_right_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_flirt" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_flirt" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_earth_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="6462d8a3-5b6c-48c7-acf2-e1d5932ca4b8" type="22" />
+																			<attribute id="Name" value="skill_prepare_earth_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_normal" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_normal" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_hang" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="die_hang" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_target_earth_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="ea6f0cdc-776b-4c84-a22f-41a92f4ef40c" type="22" />
+																			<attribute id="Name" value="skill_cast_target_earth_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_aoe_voodoo_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="693e49e6-39c4-4cc5-95cc-d57ba905ddc8" type="22" />
+																			<attribute id="Name" value="skill_cast_aoe_voodoo_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_water_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="196fabd2-82e1-4303-b157-b34a1ec704cd" type="22" />
+																			<attribute id="Name" value="skill_prepare_water_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_self_water_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="28a3d032-9fbd-48e8-b76f-edda3f1adafd" type="22" />
+																			<attribute id="Name" value="skill_cast_self_water_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_sarcasm_haughty" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_sarcasm_haughty" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_lowerb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="63276821-7470-44b1-a270-b488252e3db7" type="22" />
+																			<attribute id="Name" value="die_back_lowerb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="knockdown_fall" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="5cab51af-80b4-4600-9ffe-ce249b2e1183" type="22" />
+																			<attribute id="Name" value="knockdown_fall" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_air_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b5eec0d9-d6ff-43fa-94b1-85bd5c16c0c0" type="22" />
+																			<attribute id="Name" value="skill_prepare_air_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_electrocution" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="die_electrocution" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="run" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="37fe83ff-bdaf-45cb-91d6-78971ec46f57" type="22" />
+																			<attribute id="Name" value="run" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_knockdown" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0f93a9f8-5262-4d1a-9c0b-b86bd339ebf7" type="22" />
+																			<attribute id="Name" value="die_knockdown" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_fire_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8d089107-cac4-4dbd-892c-6e89c5d82ff4" type="22" />
+																			<attribute id="Name" value="skill_prepare_fire_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillchilled" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stillchilled" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_clueless" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_clueless" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_acid" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="die_acid" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_frozenshatter" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="die_frozenshatter" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="idle3" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e8445763-bf15-41c5-b03c-985978b8b844" type="22" />
+																			<attribute id="Name" value="idle3" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_aoe_divine_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="ebbdfeeb-f72e-4919-a0c9-9e585d2020fe" type="22" />
+																			<attribute id="Name" value="skill_cast_aoe_divine_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_upperb" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="51fef6e2-6379-4f9a-827e-f3a2d96b0894" type="22" />
+																			<attribute id="Name" value="die_back_upperb" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_rush_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="f29ac090-fc48-41c3-94f3-04583ffe284d" type="22" />
+																			<attribute id="Name" value="skill_cast_rush_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_shout_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="fc407331-f16e-4d20-80c6-6fe4104b9c91" type="22" />
+																			<attribute id="Name" value="skill_prepare_shout_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="dodge_backstab" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="afdde950-3f12-4586-9dde-881b8c357def" type="22" />
+																			<attribute id="Name" value="dodge_backstab" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillelectrified" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stillelectrified" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_greeting" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_greeting" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_earth_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4d6fd3b3-a884-4b7a-b656-67e3eaf0a062" type="22" />
+																			<attribute id="Name" value="skill_prepare_earth_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="still" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e8445763-bf15-41c5-b03c-985978b8b844" type="22" />
+																			<attribute id="Name" value="still" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="deathpose_physical" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="dad430bd-2579-4e7a-94e6-7605efaa8b90" type="22" />
+																			<attribute id="Name" value="deathpose_physical" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_down" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0d1fc656-4dcd-40b3-aafc-ab8316ab60e9" type="22" />
+																			<attribute id="Name" value="die_back_down" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stilldiseased" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stilldiseased" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_spawn_cast_01" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="413db5a9-4df9-4e37-9960-f25b6b09a27d" type="22" />
+																			<attribute id="Name" value="skill_cast_spawn_cast_01" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_throw_line_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="67a8f955-6c3d-47ad-b1d7-ab1e4f316682" type="22" />
+																			<attribute id="Name" value="skill_prepare_throw_line_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="dodge" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4b43e846-4838-4419-8eb8-7f950fa3fd4b" type="22" />
+																			<attribute id="Name" value="dodge" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="cast_target_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="16a80862-3a37-4a10-85b5-0ca6fec369d9" type="22" />
+																			<attribute id="Name" value="cast_target_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_incinerate" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4a9395cd-b3d7-4941-afd2-813c1187f2fd" type="22" />
+																			<attribute id="Name" value="die_incinerate" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_happy_cheerful" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_happy_cheerful" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_fire_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="ad109464-fd30-422f-9a1c-55adf84c8060" type="22" />
+																			<attribute id="Name" value="skill_prepare_fire_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_beam_air_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="f0732578-a86c-4b86-b3cb-07cf560b6a07" type="22" />
+																			<attribute id="Name" value="skill_cast_beam_air_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_voodoo_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b755192d-3834-443c-890b-4fc45379e9ec" type="22" />
+																			<attribute id="Name" value="skill_prepare_voodoo_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_throw_line_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="1d6aad8f-65e7-4d74-b794-799077dcd97f" type="22" />
+																			<attribute id="Name" value="skill_prepare_throw_line_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="climb_DownAttach" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="3843e3ca-91a3-4e5a-bc46-13c090c86c03" type="22" />
+																			<attribute id="Name" value="climb_DownAttach" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="hit_magic" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="f388df0b-8a1d-45bb-b7b6-16327aa4ad84" type="22" />
+																			<attribute id="Name" value="hit_magic" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="emotion_insulting" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="486db6ef-42d1-4450-8744-32cd9c75d7ed" type="22" />
+																			<attribute id="Name" value="emotion_insulting" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_back_up" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="65183e01-23e1-48fe-bc59-610c4de41c5d" type="22" />
+																			<attribute id="Name" value="die_back_up" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillsneaking" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stillsneaking" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="cast_target_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7d5d26f3-5725-4962-b566-0553c7ee73bf" type="22" />
+																			<attribute id="Name" value="cast_target_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_voodoo_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="165e132d-ff52-4704-9022-a3eb16fc1e91" type="22" />
+																			<attribute id="Name" value="skill_prepare_voodoo_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="climb_DownDetach" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4517dafb-7a05-4833-9c2e-ea2fabb06978" type="22" />
+																			<attribute id="Name" value="climb_DownDetach" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="sheath" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="d7a4d5fa-a937-48cb-9455-178b22338eab" type="22" />
+																			<attribute id="Name" value="sheath" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="climb_Down" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8f46284f-50e3-457e-b7f1-6535ab33443e" type="22" />
+																			<attribute id="Name" value="climb_Down" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_arrow" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="die_arrow" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stillmental" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stillmental" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_divine_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="c8d64571-28d2-4671-89e7-b7b572248cbf" type="22" />
+																			<attribute id="Name" value="skill_prepare_divine_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_throw_arc_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7d5d26f3-5725-4962-b566-0553c7ee73bf" type="22" />
+																			<attribute id="Name" value="skill_prepare_throw_arc_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="walk" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7d3c67ce-24da-4c53-a288-01bfe047e4e4" type="22" />
+																			<attribute id="Name" value="walk" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="cast_target_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="cfc9c247-8edb-40ed-b676-fc45762294cc" type="22" />
+																			<attribute id="Name" value="cast_target_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="hit_backstab" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="f96f4aaa-771f-4e99-9a73-131f6148aef2" type="22" />
+																			<attribute id="Name" value="hit_backstab" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_air_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e7d50f00-b249-4406-9d11-736a8ef8a752" type="22" />
+																			<attribute id="Name" value="skill_prepare_air_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="idle2" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e8445763-bf15-41c5-b03c-985978b8b844" type="22" />
+																			<attribute id="Name" value="idle2" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_front_down" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="77771d32-5f25-42d9-86fa-af9a9933d94a" type="22" />
+																			<attribute id="Name" value="die_front_down" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_divine_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="bfa6209c-4e95-4550-818e-e970d8bf4797" type="22" />
+																			<attribute id="Name" value="skill_prepare_divine_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="climb_UpDetach" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="23531dc8-771c-451e-ac67-dc909379f7c2" type="22" />
+																			<attribute id="Name" value="climb_UpDetach" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="die_pierce" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="70937027-4146-46ca-83fb-4bf8ed7304bb" type="22" />
+																			<attribute id="Name" value="die_pierce" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="stilldrunk" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="de142422-b815-4d48-88d1-82c5119d4641" type="22" />
+																			<attribute id="Name" value="stilldrunk" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_teleport_air_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="b5550e10-db82-42d2-b744-b9ede1ef71c8" type="22" />
+																			<attribute id="Name" value="skill_cast_teleport_air_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ground_air_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8d58af59-e7b3-4aa2-b33d-e80e46009c22" type="22" />
+																			<attribute id="Name" value="skill_cast_ground_air_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="hit" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="fd0f3020-cb56-46d8-911f-5903024bd931" type="22" />
+																			<attribute id="Name" value="hit" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="spawn" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8dfa6521-5b0d-4624-8653-d1dc2ca64133" type="22" />
+																			<attribute id="Name" value="spawn" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_throw_arc_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="cfc9c247-8edb-40ed-b676-fc45762294cc" type="22" />
+																			<attribute id="Name" value="skill_cast_throw_arc_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

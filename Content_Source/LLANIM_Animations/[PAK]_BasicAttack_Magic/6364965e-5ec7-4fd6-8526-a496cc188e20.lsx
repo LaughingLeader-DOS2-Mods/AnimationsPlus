@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="3" revision="0" build="1" />
+	<region id="AnimationBank">
+		<node id="AnimationBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="6364965e-5ec7-4fd6-8526-a496cc188e20" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="Public/Shared/Assets/Characters/Humans/Humans_Hero_Female_ABC/Humans_Hero_Female_ABC_Skill_Cast_Target_Voodoo_01_Cast.GR2" type="30" />
+					<attribute id="Template" value="Public/Shared/Assets/Characters/Humans/Humans_Hero_Female_ABC/Humans_Hero_Female_ABC_Skill_Cast_Target_Voodoo_01_Cast.Anim.0" type="22" />
+					<attribute id="Name" value="Humans_Hero_Female_ABC_Skill_Cast_Target_Voodoo_01_Cast_BasicAttack" type="23" />
+					<attribute id="Duration" value="2.233333" type="6" />
+					<attribute id="Offset" value="0" type="6" />
+					<attribute id="Looping" value="False" type="19" />
+					<attribute id="IsPoseBank" value="False" type="19" />
+					<attribute id="PreviewVisualResource" value="87ebb53d-0496-469f-a3c4-b21fba83532b" type="22" />
+					<children>
+						<node id="Events">
+							<attribute id="ID" value="Vocals_Combat" type="22" />
+							<attribute id="Time" value="0" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="1" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Resource" value="e680316a-eac1-41c9-8927-257033779f29" type="22" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="Footstep Left" type="22" />
+							<attribute id="Time" value="0.8489795" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="1" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="0" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="cast" type="22" />
+							<attribute id="Time" value="1.015873" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="0" type="1" />
+							<attribute id="TextKeyType" value="0" type="1" />
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="shoot" type="22" />
+							<attribute id="Time" value="1.015873" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="2" type="1" />
+							<attribute id="TextKeyType" value="0" type="1" />
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="Footstep Right" type="22" />
+							<attribute id="Time" value="1.578957" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="1" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="1" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" value="Footstep Left" type="22" />
+							<attribute id="Time" value="2.021587" type="6" />
+							<attribute id="Length" value="0.1" type="6" />
+							<attribute id="Track" value="1" type="1" />
+							<attribute id="TextKeyType" value="3" type="1" />
+							<children>
+								<node id="Properties">
+									<attribute id="Slide" value="False" type="19" />
+									<attribute id="FootID" value="0" type="1" />
+									<attribute id="PlaySound" value="True" type="19" />
+									<attribute id="PlayStepFX" value="True" type="19" />
+									<attribute id="PlaySlideFX" value="False" type="19" />
+									<attribute id="PlayHearingFX" value="True" type="19" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
