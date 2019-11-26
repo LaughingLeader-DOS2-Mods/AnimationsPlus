@@ -76,15 +76,15 @@ CharacterTransformAppearanceToWithEquipmentSet(_Char, _Char, _Equipment, 0);
 PROC
 LLANIM_Internal_RegisterMod()
 THEN
-LLANIM_Updater_RemoveOldVersions("1.0.4.0");
-LLANIM_Updater_SetVersion("1.0.4.0");
+LLANIM_Updater_RemoveOldVersions("1.0.6.0");
+LLANIM_Updater_SetVersion("1.0.6.0");
 
 IF
 GameStarted(_Level, _)
 AND
 IsGameLevel(_Level, 1)
 AND
-LLANIM_Updater_QRY_UpdateNeeded("1.0.4.0")
+LLANIM_Updater_QRY_UpdateNeeded("1.0.6.0")
 THEN
 LLANIM_Internal_RegisterMod();
 
