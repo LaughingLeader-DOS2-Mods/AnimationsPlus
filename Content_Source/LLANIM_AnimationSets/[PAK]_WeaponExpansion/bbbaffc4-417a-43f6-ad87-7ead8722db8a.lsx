@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<header version="2" time="0" />
-	<version major="54" minor="4" revision="0" build="1" />
+	<version major="54" minor="6" revision="0" build="0" />
 	<region id="AnimationSetBank">
 		<node id="AnimationSetBank">
 			<children>
@@ -24,11 +24,11 @@
 														<node id="MapValue">
 															<children>
 																<node id="Animation">
-																	<attribute id="MapKey" value="skill_cast_ll_pistol_dw_01_cast" type="22" />
+																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_cast" type="22" />
 																	<children>
 																		<node id="MapValue">
-																			<attribute id="ID" value="0feff544-b20a-441b-8bba-a7e2ccb90c46" type="22" />
-																			<attribute id="Name" value="skill_cast_ll_pistol_dw_01_cast" type="22" />
+																			<attribute id="ID" value="5e8038c4-6984-4eb7-9d7a-474d27e91ed7" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_pistol_01_cast" type="22" />
 																		</node>
 																	</children>
 																</node>
@@ -42,20 +42,29 @@
 																	</children>
 																</node>
 																<node id="Animation">
-																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_cast" type="22" />
-																	<children>
-																		<node id="MapValue">
-																			<attribute id="ID" value="5e8038c4-6984-4eb7-9d7a-474d27e91ed7" type="22" />
-																			<attribute id="Name" value="skill_cast_ll_pistol_01_cast" type="22" />
-																		</node>
-																	</children>
-																</node>
-																<node id="Animation">
 																	<attribute id="MapKey" value="skill_attack_ll_handcrossbow_power_01_cast" type="22" />
 																	<children>
 																		<node id="MapValue">
 																			<attribute id="ID" value="bb499df5-9ab6-47aa-8dda-5d3beb98c0c7" type="22" />
 																			<attribute id="Name" value="skill_attack_ll_handcrossbow_power_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_pistol_dw_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0feff544-b20a-441b-8bba-a7e2ccb90c46" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_pistol_dw_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_firearm_precision_multishot_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="81713ccf-6138-403d-89f0-eb8a48f33387" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_firearm_precision_multishot_01_cast" type="22" />
 																		</node>
 																	</children>
 																</node>

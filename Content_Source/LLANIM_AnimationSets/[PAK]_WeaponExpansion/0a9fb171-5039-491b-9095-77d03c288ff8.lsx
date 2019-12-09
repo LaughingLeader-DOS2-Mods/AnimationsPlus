@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<header version="2" time="0" />
-	<version major="54" minor="4" revision="0" build="1" />
+	<version major="54" minor="6" revision="0" build="0" />
 	<region id="AnimationSetBank">
 		<node id="AnimationSetBank">
 			<children>
@@ -24,15 +24,6 @@
 														<node id="MapValue">
 															<children>
 																<node id="Animation">
-																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_sheathe" type="22" />
-																	<children>
-																		<node id="MapValue">
-																			<attribute id="ID" value="4f1e2979-1905-4bf8-88ec-aadf25e2e9b4" type="22" />
-																			<attribute id="Name" value="skill_cast_ll_pistol_01_sheathe" type="22" />
-																		</node>
-																	</children>
-																</node>
-																<node id="Animation">
 																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_cast" type="22" />
 																	<children>
 																		<node id="MapValue">
@@ -47,6 +38,24 @@
 																		<node id="MapValue">
 																			<attribute id="ID" value="be417999-bdf7-48cf-b885-43c8f7808e8e" type="22" />
 																			<attribute id="Name" value="skill_attack_ll_handcrossbow_power_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_pistol_01_sheathe" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="499bd6f5-56e9-4735-8b40-dfaa217d3ea6" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_pistol_01_sheathe" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_firearm_precision_multishot_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="a1a4fbb3-6b88-4a9b-ac5f-60cd665ec598" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_firearm_precision_multishot_01_cast" type="22" />
 																		</node>
 																	</children>
 																</node>

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="54" minor="6" revision="0" build="0" />
+	<region id="AnimationSetBank">
+		<node id="AnimationSetBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" value="bbd4e61d-b48f-417c-8f24-86fd25391462" type="22" />
+					<attribute id="Localized" value="False" type="19" />
+					<attribute id="SourceFile" value="" type="30" />
+					<attribute id="Name" value="LLANIM_Elves_Male_ABC_AnimationsPlus_Custom" type="23" />
+					<children>
+						<node id="AnimationSet">
+							<children>
+								<node id="AnimationBank">
+									<attribute id="Type" value="character" type="22" />
+									<children>
+										<node id="AnimationSubSets">
+											<children>
+												<node id="Object">
+													<attribute id="MapKey" value="-1" type="4" />
+													<children>
+														<node id="MapValue">
+															<children>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_handcrossbow_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="4f6afdb3-7cf9-42bd-ae4a-60f6999d5ad1" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_handcrossbow_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_rushpower_2h_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="eaaaae70-9615-406d-a482-a8c8bbf0d28f" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_rushpower_2h_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_rushround_2h_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="2d499a39-48a6-411e-8c26-06d2b7dbd084" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_rushround_2h_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_sh_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="2939e9ae-7134-4a30-a8f5-77d86744b562" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_sh_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_sh_02_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="c6fb182f-6a46-403c-a0ab-a49acb21d2f0" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_sh_02_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_wd_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="c71468bc-6f4f-46d9-92de-64ed9c39680a" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_wd_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_ll_wd_02_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="e6dec0e5-3401-4bd6-9b60-8788839e72ef" type="22" />
+																			<attribute id="Name" value="skill_attack_ll_wd_02_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_unarmed_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="db8b285d-cf34-4fc4-b41f-74b61cf6ef5c" type="22" />
+																			<attribute id="Name" value="skill_attack_unarmed_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_attack_unarmed_offhand_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0b687a22-8246-4bd0-aba0-909228e842ac" type="22" />
+																			<attribute id="Name" value="skill_attack_unarmed_offhand_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_stance_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8e83b559-4065-4404-b9a8-a7a197f6615c" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_stance_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_throw_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="843f1317-d056-4de2-af46-61adf4637aa6" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_throw_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_throw_02_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="71581a22-8e8c-4cf5-afd6-35fc56e7d90a" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_throw_02_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_projectile_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="75fd6a13-14b1-4652-8e9b-97daf27a6227" type="22" />
+																			<attribute id="Name" value="skill_cast_projectile_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_projectile_offhand_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0c7819cd-a161-4137-9047-ad7cbf0e428e" type="22" />
+																			<attribute id="Name" value="skill_cast_projectile_offhand_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_self_teleport_in_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="059beaa8-6437-48ec-b345-7222b6fbaf76" type="22" />
+																			<attribute id="Name" value="skill_cast_self_teleport_in_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_self_teleport_out_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="fa10bd32-636d-4940-b728-1480b35682aa" type="22" />
+																			<attribute id="Name" value="skill_cast_self_teleport_out_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_ll_1h_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="69597813-b0d8-426d-86aa-eed9f4b17311" type="22" />
+																			<attribute id="Name" value="skill_prepare_ll_1h_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_ll_1h_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="f91cc11b-0f10-466d-9f4e-66412987a64d" type="22" />
+																			<attribute id="Name" value="skill_prepare_ll_1h_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_ll_handcrossbow_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0343f9a5-efa3-40a2-b5e3-5177102d5977" type="22" />
+																			<attribute id="Name" value="skill_prepare_ll_handcrossbow_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_ll_handcrossbow_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="cb17cf52-9511-4a58-83bf-39f6407517b2" type="22" />
+																			<attribute id="Name" value="skill_prepare_ll_handcrossbow_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_ll_wd_01_loop" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="904941da-8c32-4592-8d1e-a06087952cfd" type="22" />
+																			<attribute id="Name" value="skill_prepare_ll_wd_01_loop" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_ll_wd_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="8e4c78ab-1047-485f-8b07-4b0a7a1c8f1f" type="22" />
+																			<attribute id="Name" value="skill_prepare_ll_wd_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_prepare_sneak_01_start" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="63207068-30f7-4e04-bdfe-ed1607383519" type="22" />
+																			<attribute id="Name" value="skill_prepare_sneak_01_start" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_suckerpunch_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="7cbca38f-ac7e-4119-98f2-b96e8bb0a4b1" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_suckerpunch_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+																<node id="Animation">
+																	<attribute id="MapKey" value="skill_cast_ll_ua_sweep_01_cast" type="22" />
+																	<children>
+																		<node id="MapValue">
+																			<attribute id="ID" value="0b687a22-8246-4bd0-aba0-909228e842ac" type="22" />
+																			<attribute id="Name" value="skill_cast_ll_ua_sweep_01_cast" type="22" />
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
