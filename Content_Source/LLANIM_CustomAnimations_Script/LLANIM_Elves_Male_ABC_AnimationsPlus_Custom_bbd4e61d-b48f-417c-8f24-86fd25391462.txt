@@ -21,3 +21,5 @@ skill_prepare_ll_handcrossbow_01_start	cb17cf52-9511-4a58-83bf-39f6407517b2
 skill_prepare_ll_wd_01_loop	904941da-8c32-4592-8d1e-a06087952cfd
 skill_prepare_ll_wd_01_start	8e4c78ab-1047-485f-8b07-4b0a7a1c8f1f
 skill_prepare_sneak_01_start	63207068-30f7-4e04-bdfe-ed1607383519
+skill_cast_ll_suckerpunch_01_cast	7cbca38f-ac7e-4119-98f2-b96e8bb0a4b1
+skill_cast_ll_ua_sweep_01_cast	0b687a22-8246-4bd0-aba0-909228e842ac
