@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <save>
     <header version="2" />
-    <version major="3" minor="6" revision="4" build="1" />
+    <version major="3" minor="6" revision="6" build="0" />
     <region id="Config">
         <node id="root">
             <children>
@@ -10,6 +10,8 @@
                     <attribute id="Author" value="LaughingLeader" type="30" />
                     <attribute id="CharacterCreationLevelName" value="" type="22" />
                     <attribute id="Description" value="Adds existing animations to weapons lacking skill animations, such as unarmed and dual wielded wands, adds custom animations for mods to use, additional effect bones, and provides a way for mods to add new animations to all playable races." type="30" />
+                    <attribute id="DescriptionName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="DisplayName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
                     <attribute id="Folder" value="AnimationsPlus_326b8784-edd7-4950-86d8-fcae9f5c457c" type="30" />
                     <attribute id="GMTemplate" value="" type="22" />
                     <attribute id="LobbyLevelName" value="" type="22" />
@@ -25,7 +27,7 @@
                     <attribute id="Version" value="268828672" type="4" />
                     <children>
                         <node id="PublishVersion">
-                            <attribute id="Version" value="908857753" type="4" />
+                            <attribute id="Version" value="909321303" type="4" />
                         </node>
                         <node id="Scripts" />
                         <node id="TargetModes">
