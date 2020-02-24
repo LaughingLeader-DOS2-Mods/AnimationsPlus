@@ -72,56 +72,74 @@ CharacterAddSkill(_Char, "Rush_LLANIM_Debug_RushSmash", 0);
 CharacterTransformAppearanceToWithEquipmentSet(_Char, _Char, _Equipment, 0);
 //END_REGION
 
-//REGION LEADERLIB_VERSIONING
-PROC
-LLANIM_Internal_RegisterMod()
-THEN
-LLANIM_Updater_RemoveOldVersions("1.0.6.0");
-LLANIM_Updater_SetVersion("1.0.6.0");
-
+//REGION VERSION_UPDATE
 IF
 GameStarted(_Level, _)
 AND
 IsGameLevel(_Level, 1)
 AND
-LLANIM_Updater_QRY_UpdateNeeded("1.0.6.0")
+NOT DB_LLANIM_Version(268959744)
 THEN
 LLANIM_Internal_RegisterMod();
 
-QRY
-LLANIM_Updater_QRY_UpdateNeeded((STRING)_Version)
-AND
-NOT DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version)
-THEN
-DB_NOOP(1);
-
 PROC
-LLANIM_Updater_RemoveOldVersions((STRING)_NextVersion)
+LLANIM_Internal_RegisterMod()
+THEN
+LLANIM_Updater_RemoveOldVersions(268959744);
+LLANIM_Updater_SetVersion(268959744, "1.0.8.0");
+//END_REGION
+
+//REGION LEADERLIB_VERSIONING
+PROC
+LLANIM_Updater_RemoveOldVersions((INTEGER)_NextVersion)
 AND
 DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version)
 THEN
 NOT DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version);
-LLANIM_Updater_VersionUpdated(_Version, _NextVersion);
 
 PROC
-LLANIM_Updater_VersionUpdated((STRING)_Version, (STRING)_NextVersion)
-THEN
-DB_NOOP(1);
-
-PROC
-LLANIM_Updater_SetVersion((STRING)_Version)
+LLANIM_Updater_RemoveOldVersions((INTEGER)_NextVersion)
 AND
-DB_GlobalFlag("LeaderLib_Initialized")
+NOT DB_LLANIM_Version(_)
+THEN
+LLANIM_Updater_VersionUpdated(-1, _NextVersion);
+
+PROC
+LLANIM_Updater_RemoveOldVersions((INTEGER)_NextVersion)
+AND
+DB_LLANIM_Version(_LastVersion)
+THEN
+NOT DB_LLANIM_Version(_LastVersion);
+LLANIM_Updater_VersionUpdated(_LastVersion, _NextVersion);
+
+PROC
+LLANIM_Updater_SetVersion((INTEGER)_NextVersion, (STRING)_VersionString)
+AND
+GlobalGetFlag("LeaderLib_Initialized", 1)
 THEN
 //Fire LeaderLib ModUpdated procs.
-DB_LeaderLib_ModApi_RegisterMod("AnimationsPlus", "LaughingLeader", _Version);
+DB_LeaderLib_ModApi_RegisterMod("AnimationsPlus", "LaughingLeader", _VersionString);
 
 PROC
-LLANIM_Updater_SetVersion((STRING)_Version)
+LLANIM_Updater_SetVersion((INTEGER)_NextVersion, (STRING)_VersionString)
 AND
-NOT DB_GlobalFlag("LeaderLib_Initialized")
+GlobalGetFlag("LeaderLib_Initialized", 0)
 THEN
-DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _Version);
+DB_Mods_Registered("AnimationsPlus", "LaughingLeader", _VersionString);
+
+PROC
+LLANIM_Updater_SetVersion((INTEGER)_NextVersion, (STRING)_VersionString)
+THEN
+DB_LLANIM_Version(_NextVersion);
+//END_REGION
+
+//REGION UPDATES
+PROC
+LLANIM_Updater_VersionUpdated((INTEGER)_LastVersion, (INTEGER)_NextVersion)
+AND
+_LastVersion < 268959744
+THEN
+LLANIM_RegisterLeaderLibSettings();
 //END_REGION
 
 //REGION LEADERLIB_REGISTER_SETTINGS
@@ -131,12 +149,13 @@ AND
 NOT DB_LLANIM_RegisteredLeaderLibSettings(_)
 THEN
 DB_LLANIM_RegisteredLeaderLibSettings(1);
+LLANIM_RegisterLeaderLibSettings();
 
-IF
-DB_LLANIM_RegisteredLeaderLibSettings(1)
+PROC
+LLANIM_RegisterLeaderLibSettings()
 THEN
+DB_LeaderUpdater_RegisteredUUID("AnimationsPlus", "LaughingLeader", 326b8784-edd7-4950-86d8-fcae9f5c457c);
 DB_LeaderLib_ModApi_RegisterActiveGoal("AnimationsPlus", "LaughingLeader", "LaughingLeader_AnimationsPlus");
-//DB_LeaderLib_ModApi_RegisterMenu("LaughingLeader.FullLoot", "[Full Loot] Settings", "LLANIM_SettingsMenu", "AnimationsPlus", "LaughingLeader");
 //END_REGION
 EXITSECTION
 
