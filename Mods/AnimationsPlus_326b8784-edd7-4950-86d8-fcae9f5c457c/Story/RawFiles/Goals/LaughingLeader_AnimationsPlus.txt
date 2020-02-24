@@ -3,73 +3,11 @@ SubGoalCombiner SGC_AND
 INITSECTION
 LLANIM_Internal_RegisterMod();
 KBSECTION
-//REGION DEBUG
+//REGION DEBUG_ENABLE
 IF
 GameModeStarted(_GameMode, 1)
-AND
-NOT DB_Origins(_)
 THEN
-DB_Origins((CHARACTERGUID)S_GLO_CharacterCreationDummy_001_da072fe7-fdd5-42ae-9139-8bd4b9fca406);
-DB_LLANIM_PartyTemplates("Dwarves_Hero_Female_c1c58707-b06e-499e-9c43-91a90be602b0", "Class_Knight_Dwarves");
-DB_LLANIM_PartyTemplates("Dwarves_Hero_Male_024d1763-b2aa-46ec-b705-6338059838be", "Class_Knight_Dwarves");
-DB_LLANIM_PartyTemplates("Elves_Hero_Female_7ef846f5-34dc-450c-815e-a58dfc190a7b", "Class_Knight_Elves");
-DB_LLANIM_PartyTemplates("Elves_Hero_Male_19913083-924e-45ec-8b5b-119d5913722f", "Class_Knight_Elves");
-DB_LLANIM_PartyTemplates("Humans_Hero_Female_de8ea39b-6989-4b93-b34a-81e549c540f2", "Class_Knight_Humans");
-DB_LLANIM_PartyTemplates("Lizards_Hero_Female_e4a6bcfa-ecd6-4e56-8592-cd16b85a1c50", "Class_Knight_Lizards");
-DB_LLANIM_PartyTemplates("Lizards_Hero_Male_fa12e21f-0a10-47dd-af46-ab2c9a53cf6d", "Class_Knight_Lizards");
-
-IF
-TextEventSet("llanim_bonetest")
-AND
-GetTextEventParamString(1, _Bone)
-AND
-NOT GetTextEventParamString(2, _)
-AND
-CharacterGetHostCharacter(_Host)
-THEN
-PlayEffect(_Host, "RS3_FX_GP_ScriptedEvent_ChanelledSourceOrb_01", _Bone);
-
-IF
-TextEventSet("llanim_bonetest")
-AND
-GetTextEventParamString(1, _Bone)
-AND
-GetTextEventParamString(2, _Effect)
-AND
-CharacterGetHostCharacter(_Host)
-THEN
-PlayEffect(_Host, _Effect, _Bone);
-
-IF
-TextEventSet("llanim_party")
-AND
-SysCount("DB_IsPlayer", 1, _Count)
-AND
-_Count > 1
-AND
-DB_IsPlayer(_Char)
-THEN
-CharacterAddSkill(_Char, "Rush_LLANIM_Debug_Whirlwind", 0);
-CharacterAddSkill(_Char, "Rush_LLANIM_Debug_RushSmash", 0);
-
-IF
-TextEventSet("llanim_party")
-AND
-SysCount("DB_IsPlayer", 1, 1)
-AND
-CharacterGetHostCharacter(_Host)
-AND
-GetPosition(_Host, _x, _y, _z)
-AND
-DB_LLANIM_PartyTemplates(_Template, _Equipment)
-AND
-CharacterCreateAtPosition(_x, _y, _z, _Template, 0, _Char)
-THEN
-DB_IsPlayer(_Char);
-CharacterMakePlayer(_Char, _Host);
-CharacterAddSkill(_Char, "Rush_LLANIM_Debug_Whirlwind", 0);
-CharacterAddSkill(_Char, "Rush_LLANIM_Debug_RushSmash", 0);
-CharacterTransformAppearanceToWithEquipmentSet(_Char, _Char, _Equipment, 0);
+SysActivateGoal("LLANIM_Debug");
 //END_REGION
 
 //REGION VERSION_UPDATE
