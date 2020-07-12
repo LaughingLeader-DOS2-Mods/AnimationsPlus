@@ -16,15 +16,15 @@ GameStarted(_Level, _)
 AND
 IsGameLevel(_Level, 1)
 AND
-NOT DB_LLANIM_Version(268959744)
+NOT DB_LLANIM_Version(269025280)
 THEN
 LLANIM_Internal_RegisterMod();
 
 PROC
 LLANIM_Internal_RegisterMod()
 THEN
-LLANIM_Updater_RemoveOldVersions(268959744);
-LLANIM_Updater_SetVersion(268959744, "1.0.8.0");
+LLANIM_Updater_RemoveOldVersions(269025280);
+LLANIM_Updater_SetVersion(269025280, "1.0.9.0");
 //END_REGION
 
 //REGION LEADERLIB_VERSIONING
