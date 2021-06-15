@@ -24,7 +24,7 @@
                     <attribute id="Tags" value="" type="30" />
                     <attribute id="Type" value="Add-on" type="22" />
                     <attribute id="UUID" value="326b8784-edd7-4950-86d8-fcae9f5c457c" type="22" />
-                    <attribute id="Version" value="269025280" type="4" />
+                    <attribute id="Version" value="269025281" type="4" />
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version" value="909321303" type="4" />
@@ -36,10 +36,10 @@
                                     <attribute id="Object" value="Story" type="22" />
                                 </node>
                                 <node id="Target">
-                                    <attribute id="Object" value="GM" type="22" />
+                                    <attribute id="Object" value="Arena" type="22" />
                                 </node>
                                 <node id="Target">
-                                    <attribute id="Object" value="Arena" type="22" />
+                                    <attribute id="Object" value="GM" type="22" />
                                 </node>
                             </children>
                         </node>
